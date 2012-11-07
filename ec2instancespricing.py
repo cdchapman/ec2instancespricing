@@ -113,6 +113,7 @@ DEFAULT_CURRENCY = "USD"
 
 INSTANCE_TYPE_MAPPING = {
 	"stdODI" : "m1",
+  "secgenstdODI" : "m3",
 	"uODI" : "t1",
 	"hiMemODI" : "m2",
 	"hiCPUODI" : "c1",
@@ -122,6 +123,7 @@ INSTANCE_TYPE_MAPPING = {
 
 	# Reserved Instance Types
 	"stdResI" : "m1",
+  "secgenstdResI" : "m3",
 	"uResI" : "t1",
 	"hiMemResI" : "m2",
 	"hiCPUResI" : "c1",
